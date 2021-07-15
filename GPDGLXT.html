@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教务系统登录</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style >
+			  body {
+			  	background-color: #1E9FFF;
+			  }
+			#loginDiv{
+				background-color: white;
+				width:550px;
+			   height:530px;
+				margin: 0 auto;
+				color:#1E9FFF;
+				margin-top: 100px;
+				text-align: center;
+				padding-top: 20px;
+			}
+			#uname {
+			   width:456px;
+			   height:55px;
+			   border-radius: 5px;
+			   border:1px solid lightgrey;
+			   margin-left: -30px;
+			   background-color: transparent;
+			   padding-left: 30px;
+			}
+			#upsw{
+			   width:456px;
+			   height:55px;
+			   border-radius: 5px;
+			   border:1px solid lightgrey;
+			   margin-left: -30px;
+			   background-color: transparent;
+			   padding-left: 30px;
+			   margin-top: 10px;
+			}
+			#loginBtn{
+			width:500px;
+			height:55px;
+			margin-top: 11px;
+			background-color:#FF6B4D ;
+			border:1px solid #FF6B4D;
+			border-radius: 5px;
+			color:white;
+			}
+			#bottom{
+			border:1px solid transparent;
+			align="center"; 
+			font-family: "微软雅黑";
+			color:#000000;
+			}
+			#pic {
+				width:100px;
+			    height:100px;
+			}
+			#wx {
+				  width:50px;
+			      height:50px;
+			}
+			#qq {
+			       width:50px;
+			      height:50px;
+			}
+			#wb {
+				  
+				  width:50px;
+			      height:50px;
+			}
+			.dl {
+			font-family: "仿宋";
+				font-size: 20px;
+		        color:#000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="loginDiv">
+			<img src="3.jpg" id="pic"/>
+			<h1 >毕业设计管理系统</h1>
+			<img src="../img/user.png">
+			<input placeholder="请输入用户名" type="text" id="uname" name="username"><br>
+			<img src="../img/password.png">
+			<input placeholder="请输入密码" type="passward" id="upsw" name="username">
+			<br>
+			<button  id="loginBtn">登录</button>
+			<a href="https://wx.qq.com/"><img src="4.jpg"  id="wx" /></a> &nbsp
+			<a href="https://weibo.com/" ><img src="5.jpg"  id="wb"/></a>&nbsp
+			<a href="https://graph.qq.com/"><img src="6.jpg"  id="qq" /></a>
+			<br><p class="dl" >戈培东的作品</p>
+			</div>
+	</body>
+</html>
